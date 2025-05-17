@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MentorQuest_Frontend/static/css/main.918eeb2a.css",
+    "main.js": "/MentorQuest_Frontend/static/js/main.e1e9e825.js",
+    "static/js/453.8ab44547.chunk.js": "/MentorQuest_Frontend/static/js/453.8ab44547.chunk.js",
+    "static/media/fa-solid-900.ttf": "/MentorQuest_Frontend/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/fa-brands-400.ttf": "/MentorQuest_Frontend/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/MentorQuest_Frontend/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/MentorQuest_Frontend/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/hero.jpg": "/MentorQuest_Frontend/static/media/hero.bca74c01aec4cd608806.jpg",
+    "static/media/fa-regular-400.ttf": "/MentorQuest_Frontend/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "service-worker.js": "/MentorQuest_Frontend/service-worker.js",
+    "static/media/fa-regular-400.woff2": "/MentorQuest_Frontend/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/MentorQuest_Frontend/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/MentorQuest_Frontend/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/MentorQuest_Frontend/index.html",
+    "main.918eeb2a.css.map": "/MentorQuest_Frontend/static/css/main.918eeb2a.css.map",
+    "main.e1e9e825.js.map": "/MentorQuest_Frontend/static/js/main.e1e9e825.js.map",
+    "453.8ab44547.chunk.js.map": "/MentorQuest_Frontend/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.918eeb2a.css",
+    "static/js/main.e1e9e825.js"
+  ]
+}
