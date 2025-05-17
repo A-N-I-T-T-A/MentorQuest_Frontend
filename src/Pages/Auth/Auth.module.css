@@ -1,0 +1,148 @@
+.authContainer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: #f8f9fa;
+  }
+  
+  .authCard {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .authCard h2 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+  }
+  
+  .googleButton {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .googleButton:hover {
+    background: #f8f9fa;
+  }
+  
+  .divider {
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .divider span {
+    padding: 0 0.5rem;
+    color: #6c757d;
+    font-size: 0.875rem;
+  }
+  
+  .formGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .formGroup input[type="text"],
+  .formGroup input[type="email"],
+  .formGroup input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .formGroup input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .roleToggle {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .roleToggle label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .forgotPassword {
+    text-align: right;
+    margin-bottom: 1rem;
+  }
+  
+  .forgotPassword a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.875rem;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 0.75rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background: #0056b3;
+  }
+  
+  .switchAuth {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .switchAuth a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .switchAuth a:hover {
+    text-decoration: underline;
+  }
+  
+  

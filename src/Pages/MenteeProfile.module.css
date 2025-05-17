@@ -1,0 +1,241 @@
+.profileContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profileHeader {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+}
+
+.profileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profilePic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profileInfo {
+  flex: 1;
+}
+
+.name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0 0 1rem 0;
+}
+
+.designation {
+  font-size: 1.2rem;
+  color: #34495e;
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+}
+
+.experienceLevel {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin: 0 0 1rem 0;
+}
+
+.metaInfo {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #34495e;
+  font-size: 1rem;
+}
+
+.icon {
+  color: #3498db;
+  font-size: 1.2rem;
+}
+
+.profileContent {
+  padding: 2rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+h3 {
+  color: #2c3e50;
+  margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+.bioSection {
+  margin-bottom: 2rem;
+}
+
+p {
+  color: #34495e;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.skillsSection {
+  margin-bottom: 2rem;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill {
+  background: #3498db;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.linksSection {
+  margin-bottom: 2rem;
+}
+
+.linkList {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #3498db;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background: #3498db;
+  color: white;
+}
+
+.linkIcon {
+  font-size: 1.2rem;
+}
+
+.accountSection {
+  margin-bottom: 2rem;
+}
+
+.accountDetails {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.detailItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+.detailLabel {
+  color: #7f8c8d;
+  font-weight: 500;
+}
+
+.detailValue {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.activitySection {
+  margin-bottom: 2rem;
+}
+
+.activityList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.activityItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.activityIcon {
+  color: #3498db;
+  font-size: 1.5rem;
+}
+
+.activityDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.activityTitle {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+
+.activityValue {
+  color: #3498db;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #7f8c8d;
+}
+
+.error {
+  text-align: center;
+  padding: 2rem;
+  color: #e74c3c;
+}
+
+.notFound {
+  text-align: center;
+  padding: 2rem;
+  color: #7f8c8d;
+}

@@ -1,0 +1,205 @@
+.profileSetupContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #f5f7fa;
+}
+
+.profileSetupCard {
+  width: 100%;
+  max-width: 600px;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.profileSetupCard h2 {
+  font-size: 1.8rem;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  color: #718096;
+  margin-bottom: 2rem;
+}
+
+.errorMessage {
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  background-color: #fed7d7;
+  color: #e53e3e;
+  font-size: 0.9rem;
+}
+
+.profileImageSection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.profileImageUpload {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #edf2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px dashed #cbd5e0;
+  transition: all 0.3s ease;
+  color: #718096;
+  font-size: 0.9rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.profileImageUpload:hover {
+  border-color: #3182ce;
+  color: #3182ce;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #4a5568;
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.formGroup input:focus,
+.formGroup select:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: #3182ce;
+  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
+}
+
+.skillInputContainer {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.skillInputContainer input {
+  flex: 1;
+}
+
+.addSkillButton {
+  padding: 0.75rem 1.25rem;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.addSkillButton:hover {
+  background-color: #2c5282;
+}
+
+.suggestedSkills,
+.selectedSkills {
+  margin-top: 1rem;
+}
+
+.suggestedSkills p,
+.selectedSkills p {
+  font-size: 0.85rem;
+  color: #718096;
+  margin-bottom: 0.5rem;
+}
+
+.skillTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.suggestedSkill {
+  padding: 0.4rem 0.8rem;
+  background-color: #edf2f7;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: #4a5568;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.suggestedSkill:hover {
+  background-color: #e2e8f0;
+}
+
+.selectedSkill {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  background-color: #ebf5ff;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: #3182ce;
+}
+
+.removeSkill {
+  background: none;
+  border: none;
+  color: #3182ce;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.removeSkill:hover {
+  color: #2c5282;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.submitButton:hover {
+  background-color: #2c5282;
+}
+
+.submitButton:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}

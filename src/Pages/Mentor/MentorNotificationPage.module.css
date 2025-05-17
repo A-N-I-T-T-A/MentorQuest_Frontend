@@ -1,0 +1,182 @@
+.notificationContainer {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.markAllReadButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.markAllReadButton:hover {
+    background-color: #45a049;
+}
+
+.loading {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}
+
+.error {
+    text-align: center;
+    padding: 2rem;
+    color: #dc3545;
+}
+
+.noNotifications {
+    text-align: center;
+    padding: 2rem;
+    color: #6c757d;
+}
+
+.notificationList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.notificationItem {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.notificationItem.unread {
+    border-left: 4px solid #007bff;
+}
+
+.notificationIcon {
+    color: #007bff;
+    font-size: 1.5rem;
+}
+
+.notificationContent {
+    flex: 1;
+}
+
+.notificationHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.notificationType {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.notificationTime {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.notificationMessage {
+    margin: 0;
+    color: #333;
+}
+
+.sessionDetails {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.sessionInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.sessionLabel {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.notificationActions {
+    display: flex;
+    gap: 1rem;
+}
+
+.readButton,
+.deleteButton {
+    background: none;
+    border: none;
+    color: #6c757d;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.readButton:hover,
+.deleteButton:hover {
+    color: #007bff;
+}
+
+.deleteButton {
+    color: #dc3545;
+}
+
+.deleteButton:hover {
+    color: #c82333;
+}
+
+.badge {
+    padding: 0.25rem 0.65rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.badge-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.badge-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.badge-info {
+    background-color: #17a2b8;
+    color: white;
+}

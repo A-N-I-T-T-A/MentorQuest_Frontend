@@ -1,0 +1,160 @@
+.container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.loading {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}
+
+.error {
+    text-align: center;
+    padding: 2rem;
+    color: #dc3545;
+}
+
+.noSessions {
+    text-align: center;
+    padding: 2rem;
+    color: #6c757d;
+}
+
+.sessionsList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sessionCard {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sessionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.sessionDate {
+    font-weight: bold;
+    color: #333;
+}
+
+.sessionTime {
+    color: #6c757d;
+}
+
+.sessionDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.menteeInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #333;
+}
+
+.sessionStatus {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sessionActions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.statusButton {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.scheduledButton {
+    background-color: #28a745;
+    color: white;
+}
+
+.scheduledButton:hover {
+    background-color: #218838;
+}
+
+.completedButton {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.completedButton:hover {
+    background-color: #138496;
+}
+
+.cancelledButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+.cancelledButton:hover {
+    background-color: #c82333;
+}
+
+.rescheduleButton {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.rescheduleButton:hover {
+    background-color: #e0a800;
+}
+
+.badge {
+    padding: 0.25rem 0.65rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.badge-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.badge-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.badge-info {
+    background-color: #17a2b8;
+    color: white;
+}

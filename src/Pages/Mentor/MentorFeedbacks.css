@@ -1,0 +1,250 @@
+.feedbacks-container {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.feedbacks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 24px;
+  width: 100%;
+}
+
+.feedback-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.feedback-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.feedback-header {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 24px 24px 10px;
+  background: linear-gradient(135deg, #7c69ef 0%, #5d54c9 100%);
+  color: white;
+}
+
+.mentee-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.mentee-avatar-container {
+  flex-shrink: 0;
+  position: relative;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.mentee-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mentee-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.mentee-details h3 {
+  margin: 0 0 6px 0;
+  font-size: 18px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.session-date {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 5px;
+}
+
+.rating i {
+  font-size: 18px;
+}
+
+.rating i.filled {
+  color: #ffd700;
+}
+
+.rating i.empty {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.rating-value {
+  margin-left: 8px;
+  font-weight: 600;
+}
+
+.feedback-content {
+  padding: 24px;
+  flex-grow: 1;
+  position: relative;
+}
+
+.feedback-content::before {
+  content: '"';
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  font-size: 50px;
+  font-family: Georgia, serif;
+  color: rgba(108, 99, 255, 0.1);
+}
+
+.feedback-content p {
+  position: relative;
+  margin: 0;
+  color: #444;
+  font-size: 15px;
+  line-height: 1.7;
+  font-style: italic;
+  padding-left: 5px;
+}
+
+.feedback-footer {
+  padding: 16px 24px;
+  background-color: #f8f9fe;
+  border-top: 1px solid #eaeaea;
+}
+
+.session-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 14px;
+  color: #666;
+}
+
+.session-info, .session-topic {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.session-topic {
+  background-color: rgba(108, 99, 255, 0.1);
+  color: #6c63ff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.no-feedbacks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: rgba(240, 240, 250, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.no-feedbacks i {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: #6c63ff;
+}
+
+.no-feedbacks p {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top-color: #6c63ff;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-message {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #ffebee;
+  color: #d32f2f;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.error-message i {
+  font-size: 24px;
+}
+
+.error-message p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.dashboard-header {
+  margin-bottom: 30px;
+}
+
+.dashboard-header h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.dashboard-header p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .feedbacks-grid {
+    grid-template-columns: 1fr;
+  }
+} 
