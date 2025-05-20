@@ -12,7 +12,7 @@ const profileService = {
         body: Object.fromEntries(profileData)
       });
 
-      const response = await fetch('http://127.0.0.1:8001/mentorapp/mentee/profile/', {
+      const response = await fetch('https://mentorquest-backend.onrender.com/mentorapp/mentee/profile/', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`
@@ -57,7 +57,7 @@ const profileService = {
 
   updateMentorProfile: async (profileData, token) => {
     try {
-      const response = await fetch('http://127.0.0.1:8001/mentorapp/mentor/profile/', {
+      const response = await fetch('https://mentorquest-backend.onrender.com/mentorapp/mentor/profile/', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`
