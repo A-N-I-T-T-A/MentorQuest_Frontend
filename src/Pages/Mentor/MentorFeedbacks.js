@@ -6,7 +6,7 @@ import { getAuthToken } from '../../services/authUtils';
 import './MentorFeedbacks.css';
 import { MEDIA_BASE_URL } from '../../config';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:8001';
+const API_URL = process.env.REACT_APP_API_URL || 'https://mentorquest-backend.onrender.com';
 
 const MentorFeedbacks = () => {
     const [feedbacks, setFeedbacks] = useState([]);
