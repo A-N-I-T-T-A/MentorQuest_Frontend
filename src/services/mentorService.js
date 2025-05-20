@@ -1,4 +1,4 @@
-const API_URL = 'http://127.0.0.1:8001/mentorapp';
+const API_URL = 'https://mentorquest-backend.onrender.com/mentorapp';
 
 export const getMentors = async (searchQuery = '', selectedSkills = [], priceRange = [0, 3000]) => {
   try {
