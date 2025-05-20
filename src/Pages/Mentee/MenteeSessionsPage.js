@@ -7,7 +7,7 @@ import FeedbackModal from '../../components/Mentee/FeedbackModal';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:8001';
+const API_URL = process.env.REACT_APP_API_URL || 'https://mentorquest-backend.onrender.com';
 
 const MenteeSessionsPage = () => {
     const [sessions, setSessions] = useState([]);
