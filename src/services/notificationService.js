@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { getAuthToken } from './authUtils';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:8001/mentorapp';
+const API_URL = process.env.REACT_APP_API_URL || 'https://mentorquest-backend.onrender.com/mentorapp';
 
 const notificationService = {
     // Get all notifications
