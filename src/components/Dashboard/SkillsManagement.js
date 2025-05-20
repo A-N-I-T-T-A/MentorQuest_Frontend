@@ -11,7 +11,7 @@ const SkillsManagement = () => {
     const [isAdmin, setIsAdmin] = useState(false);
     const userData = JSON.parse(localStorage.getItem('user_data') || '{}');
 
-    const API_URL = "http://127.0.0.1:8001/mentorapp";
+    const API_URL = "https://mentorquest-backend.onrender.com/mentorapp";
 
     useEffect(() => {
         fetchSkills();
