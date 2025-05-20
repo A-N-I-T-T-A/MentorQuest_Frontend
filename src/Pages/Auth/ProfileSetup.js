@@ -52,7 +52,7 @@ const ProfileSetup = () => {
   const fetchSkills = async () => {
     try {
       const token = getAuthToken();
-      const response = await fetch('http://127.0.0.1:8001/mentorapp/skills/', {
+      const response = await fetch('https://mentorquest-backend.onrender.com/mentorapp/skills/', {
         headers: {
           'Authorization': `Bearer ${token}`
         }
