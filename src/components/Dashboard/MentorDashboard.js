@@ -4,7 +4,7 @@ import "./Dashboard.css";
 import axios from "axios";
 import { getAuthToken } from "../../services/authUtils";
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:8001';
+const API_URL = process.env.REACT_APP_API_URL || 'https://mentorquest-backend.onrender.com';
 
 const MentorDashboard = () => {
     const [data, setData] = useState({
