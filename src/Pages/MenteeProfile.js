@@ -20,7 +20,7 @@ const MenteeProfile = () => {
     const fetchMenteeProfile = async () => {
       try {
         const token = getAuthToken();
-        const response = await axios.get(`http://127.0.0.1:8001/mentorapp/mentee-profile/${id}/`, {
+        const response = await axios.get(`https://mentorquest-backend.onrender.com/mentorapp/mentee-profile/${id}/`, {
           headers: {
             'Authorization': `Bearer ${token}`
           }
