@@ -17,7 +17,7 @@ ChartJS.register(
   Title
 );
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:8001';
+const API_URL = process.env.REACT_APP_API_URL || 'https://mentorquest-backend.onrender.com';
 
 const ReportsPage = () => {
   const [loading, setLoading] = useState(true);
