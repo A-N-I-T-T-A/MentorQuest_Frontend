@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { getAuthToken } from './authUtils';
 
-const API_BASE_URL = "http://127.0.0.1:8001/mentorapp";
+const API_BASE_URL = "https://mentorquest-backend.onrender.com/mentorapp";
 
 const profileService = {
   updateMenteeProfile: async (profileData, token) => {
