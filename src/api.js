@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "http://localhost:8001/api/",
+    baseURL: "https://mentorquest-backend.onrender.com/api/",
   });
   
   export default API;
