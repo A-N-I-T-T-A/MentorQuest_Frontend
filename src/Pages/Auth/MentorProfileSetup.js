@@ -11,7 +11,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { validateBio, validateDesignation, validateLocation, validateURL, validateSkills, validateAvailability } from '../../utils/validations';
 
-const API_URL = 'http://127.0.0.1:8001/mentorapp';
+const API_URL = 'https://mentorquest-backend.onrender.com/mentorapp';
 
 const MentorProfileSetup = () => {
   const [formData, setFormData] = useState({
